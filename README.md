@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QuizzApp 🎯
 
-## Getting Started
+A quiz application built as part of the **Software Engineer Intern assignment** at CausalFunnel.  
+The app fetches questions from the Open Trivia DB API and provides an interactive quiz experience with timer, navigation, and results page.
 
-First, run the development server:
+---
 
+## 🚀 Live Demo
+👉 [QuizzApp on Vercel](https://quizzapp-ruddy.vercel.app/)
+
+---
+
+## 📂 Repository
+👉 [GitHub Repo](https://github.com/vishalshukla77/quizzapp)
+
+---
+
+## ✨ Features
+- **Quiz Layout & Flow**
+  - Landing page with email input to start quiz.
+  - 15 questions displayed one by one.
+  - Timer of 30 minutes with auto-submit when time runs out.
+
+- **Navigation**
+  - Overview panel to navigate to specific questions.
+  - Tracks answered/unanswered questions.
+
+- **Results**
+  - Summary page after quiz ends.
+  - Displays each question, user's answer, and correct answer side by side.
+
+- **Responsive Design**
+  - Works seamlessly across desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js, React, TypeScript  
+- **Styling:** Tailwind CSS  
+- **State Management:** React hooks  
+- **Hosting:** Vercel  
+- **API:** [Open Trivia DB](https://opentdb.com/api.php)
+
+---
+
+## 📑 Judgment Criteria Fulfilled
+- ✅ All functionalities implemented (quiz, navigation, timer, results).  
+- ✅ Clean, modular, and reusable code.  
+- ✅ Comments where necessary for complex logic.  
+- ✅ Hosted on Vercel and accessible via live link.  
+- ✅ Responsive and optimized for different devices.  
+
+---
+
+## ⚡ Bonus Features
+- Adaptive responsive design for multiple screen sizes.  
+- Smooth navigation and UI enhancements.  
+
+---
+
+## ▶️ Getting Started
+
+### Prerequisites
+- Node.js (>= 16)
+- npm or yarn
+
+### Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Clone the repository
+git clone https://github.com/vishalshukla77/quizzapp.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Navigate to project folder
+cd quizzapp
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Install dependencies
+npm install
